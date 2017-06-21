@@ -1,0 +1,58 @@
+.header {
+    .container-fluid;
+    border-bottom: 1px solid #969695;
+    padding: 20px 0 10px 0;
+    .header-container {
+        .container;
+        height: 36px;
+        overflow: hidden;
+        .head-left {
+            .f-l;
+            width: 75px;
+            padding: 5px 10px 4px 0;
+        }
+        .logo {
+            .f-l;
+            .t-c;
+            width: 104px;
+            padding: 0 10px;
+            border-left: 1px solid #969695;
+        }
+        ul {
+            .f-l;
+            width: 630px;
+            padding-left: 20px;
+            li {
+                &.active{
+                    color: #e60012;
+                }
+                .f-l;
+                .t-c;
+                width: 90px;
+                font-size: 18px;
+                color: #000;
+                line-height: 36px;
+                font-family: "simhei";
+                a {
+                    color: #000;
+                    text-decoration: none;
+                    &:hover {
+                        color: #e60012;
+                    }
+                }    
+            }
+        }
+        .head-right {
+            .f-r;
+            line-height: 36px;
+            width: 80px;
+            font-size: 20px;
+            background: url(../images/travker/head_img.png) no-repeat left center;
+            padding-left: 30px;
+            a {
+                color: #e60012;
+                text-decoration: none;
+            }
+        }
+    }
+}

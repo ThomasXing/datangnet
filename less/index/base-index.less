@@ -1,0 +1,121 @@
+.base {
+    .img {
+        width: 39px;
+        float: left;
+        cursor: pointer;
+        height: 600px;
+    }
+    .a {
+        width: 39px;
+        height: 600px;
+        float: left;
+        cursor: pointer;
+        color: #FFF;
+    }
+    width: 1280px;
+    margin: 0 auto;
+    height: 628px;
+    overflow: hidden;
+    .img-l {
+        .img;
+        a {
+            .a;
+            background: url(../images/travker/next_left01.png) no-repeat center center;
+            &:hover{
+                background: url(../images/travker/next_left02.png) no-repeat center center;    
+            }
+        }
+    }
+    .img-r {
+        .img;
+        a {
+            .a;
+            background: url(../images/travker/next_right01.png) no-repeat center center;
+            &:hover{
+                background: url(../images/travker/next_right02.png) no-repeat center center;    
+            }
+        }
+    }
+    .base-nav {
+        position: relative;
+        width: 1200px;
+        float: left;
+        height: 608px;
+        overflow: hidden;
+        .city-img2 {
+            overflow: hidden;
+            .f-l;
+            margin: 15px 10px 0;
+            width: 280px;
+            height: 280px;
+            z-index: 555;
+            a {
+                width: 280px;
+                height: 280px;
+                display: block;
+                position: relative;
+                .mengban{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    content: " ";
+                    width: 100%;
+                    height: 100%;
+                    background:#000 ;
+                    z-index: 0;
+                    filter: alpha(opacity=50);
+                    background: radial-gradient(circle, transparent, rgba(0,0,0,.5));
+                }
+                img {
+                    width: 280px;
+                    height: 280px;
+                }
+                .sexangle {
+                    position: absolute;
+                    width: 120px;
+                    height: 136px;
+                    right: 0;
+                    bottom: -20px;
+                    transition: .5s cubic-bezier(.68, -.55, .27, 1.55);
+                    transform: scale(1);
+                    background: url(../images/travker/liubianxing.png) no-repeat;
+                    background-size: 100%;
+                    z-index: 5;
+                    h2 {
+                        .t-c;
+                        .f-h;
+                        width: 100%;
+                        font-weight: 100;
+                        font-size: 24px;
+                        color: #FFF;
+                        padding: 40px 0 0 0;
+                        line-height: 30px;
+                    }
+                    h3 {
+                        width: 100%;
+                        font-weight: 100;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #FFF;
+                        line-height: 30px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+                &:hover {
+                        .sexangle {
+                         //  transform:translate(-85px,-85px);
+                            right: 50%;
+                            bottom: 50%;
+                            margin-right: -60px;
+                            margin-bottom: -78px;
+                        }
+                        .mengban {
+                            background: none;
+                        }
+                }
+            }
+            
+        }
+    }
+}

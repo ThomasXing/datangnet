@@ -1,0 +1,106 @@
+.section {
+    .container;
+    padding: 0 0 20px 0;
+    ul {
+        @widt:380px;
+        @heig:345px;
+        .clearfix;
+        width: 100%;
+        li {
+            .f-l;
+            .o-h;
+            .p-r;
+            padding: 10px 0;
+            display: inline;
+            width: @widt;
+            height: @heig;
+            margin: 0 10px;
+            .photo {
+                .o-f;
+                width: @widt;
+                height: @heig;
+                dt {
+                    width: @widt;
+                    height: 285px;
+                    overflow: hidden;
+                    img {
+                        width: @widt;
+                    }
+                }
+                dd {
+                    .f-h;
+                    .t-c;
+                    .t-n;
+                    width: @widt;
+                    background: #eeeeee;
+                    font-size: 18px;
+                    line-height: 60px;
+                    color: #333;
+                }
+            }
+            .rsp {
+                .o-h;
+                .p-a;
+                width: @widt;
+                height: @heig;
+                background: #000;
+                top: 10px;
+                left: 0px;
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+            .text {
+                .public {
+                    width: 100%;
+                    margin: 0 auto;
+                    color: #FFF;
+                    font-weight: 100;
+                    line-height: 28px;
+                    font-size: 14px;
+                }
+                .o-h;
+                .p-a;
+                padding: 10px 10px;
+                width: 360px;
+                height: 305px;
+                left: -@widt;
+                top: 10px;
+                h3 {
+                    .public;
+                    .f-h;
+                    .p-r;
+                    line-height: 40px;
+                    padding-top: 15px;
+                    font-size: 22px;
+                }
+                h4 {
+                    .public;
+                    padding: 40px 0;
+                    height: 180px;
+                }
+                p { 
+                    .public;
+                }
+                .button {
+                    .f-h;
+                    .o-f;
+                    width: 160px;
+                    line-height: 40px;
+                    background: #fff;
+                    margin: 15px auto;
+                    height: 40px;
+                    border-radius: 25px;
+                    a {
+                        width: 100%;
+                        float: left;
+                        height: 40px;
+                        line-height: 40px;
+                        color: #ff0000;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

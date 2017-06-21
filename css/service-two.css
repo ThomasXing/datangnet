@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.service-title {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "simhei";
+  overflow: hidden;
+  height: 60px;
+  padding: 30px 0px 20px;
+  background: url(../images/travker/title.jpg) 0px 86px repeat-x;
+}
+.service-title dt {
+  float: left;
+  border-bottom: 4px solid #e60012;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 34px;
+  padding-bottom: 16px;
+}
+.servicetwo-text {
+  width: 1160px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000;
+  margin: 0 auto;
+  text-indent: 2em;
+}
+.servicetwo-dl {
+  width: 1088px;
+  margin: 0 auto;
+  overflow: auto;
+  zoom: 1;
+  padding-bottom: 30px;
+}
+.servicetwo-dl dl {
+  width: 240px;
+  padding: 0 16px;
+  float: left;
+}
+.servicetwo-dl dl dt {
+  width: 240px;
+  float: left;
+  font-size: 0;
+}
+.servicetwo-dl dl dd {
+  width: 240px;
+  float: left;
+  padding-top: 10px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #7b7b7c;
+}
+.servicetwo-ul {
+  width: 1184px;
+  margin: 0 auto;
+  overflow: auto;
+  zoom: 1;
+}
+.servicetwo-ul dl {
+  width: 520px;
+  float: left;
+  margin: 10px 16px;
+  background: #ffffff url(../images/travker/dice_img05.png) no-repeat 275px 105px;
+  border-radius: 10px;
+  padding: 30px 20px;
+  height: 100px;
+  overflow: hidden;
+}
+.servicetwo-ul dl dt {
+  width: 100px;
+  float: left;
+  line-height: 80px;
+  padding-top: 20px;
+  font-size: 72px;
+  color: #c3c3c3;
+}
+.servicetwo-ul dl dd {
+  width: 400px;
+  float: left;
+}
+.servicetwo-ul dl dd h3 {
+  font-weight: 100;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: "é»‘ä½“";
+  color: #0b0205;
+}
+.servicetwo-ul dl dd h4 {
+  font-weight: 100;
+  line-height: 24px;
+  font-size: 14px;
+  color: #0b0205;
+}
+.servicetwo-img {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}

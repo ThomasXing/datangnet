@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}

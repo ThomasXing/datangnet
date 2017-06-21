@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.service-box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0 30px 0;
+  overflow: auto;
+  zoom: 1;
+}
+.service-box dl {
+  width: 286px;
+  padding: 7px 7px;
+  float: left;
+  height: 286px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.service-box dl dt {
+  width: 286px;
+  float: left;
+}
+.service-box dl dt img {
+  width: 100%;
+}
+.service-box dl dd {
+  width: 286px;
+  padding-top: 60px;
+  float: left;
+  margin-top: -286px;
+  color: #FFF;
+}
+.service-box dl dd h3 {
+  width: 100%;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 100;
+  font-family: "simhei";
+  text-decoration: none;
+}
+.service-box dl dd h4 {
+  width: 70%;
+  padding: 0 15%;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100;
+}

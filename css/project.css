@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.project-banner {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.project-banner img {
+  width: 100%;
+}
+.project-title {
+  width: 1200px;
+  height: 61px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url(../images/travker/line.jpg) repeat-x;
+}
+.project-title ul {
+  width: 520px;
+  padding: 0 340px;
+  list-style-type: none;
+  overflow: hidden;
+}
+.project-title ul li {
+  width: 140px;
+  float: left;
+  text-align: center;
+  color: #7b7b7c;
+  line-height: 60px;
+  font-size: 24px;
+  height: 61px;
+  font-family: 黑体;
+  padding: 0px 60px;
+  overflow: hidden;
+}
+.project-title ul li span {
+  color: #e90404;
+  border-bottom: 1px solid #e90404;
+  line-height: 60px;
+  float: left;
+}
+.project-title ul li a {
+  color: #7b7b7c;
+  text-decoration: none;
+}
+.project-box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0 100px 0;
+}
+.project-box dl {
+  width: 1200px;
+  padding-top: 45px;
+  overflow: auto;
+  zoom: 1;
+}
+.project-box dl dt {
+  width: 260px;
+  float: left;
+  padding-right: 40px;
+}
+.project-box dl dt img {
+  width: 200px;
+}
+.project-box dl dd {
+  width: 900px;
+  float: left;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #969695;
+}
+.project-box dl dd h3 {
+  font-size: 24px;
+  color: #000000;
+  line-height: 40px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  font-family: "黑体";
+}
+.project-box dl dd i {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 36px;
+  color: #777774;
+}
+.project-box dl dd i b {
+  color: #000;
+  font-weight: 100;
+}
+.project-box dl dd i p {
+  font-size: 18px;
+  line-height: 36px;
+  color: #777774;
+  padding-bottom: 40px;
+  display: inline;
+}

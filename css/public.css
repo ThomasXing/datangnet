@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid #969695;
+  padding: 20px 0 10px 0;
+}
+.header .header-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 36px;
+  overflow: hidden;
+}
+.header .header-container .head-left {
+  float: left;
+  width: 75px;
+  padding: 5px 10px 4px 0;
+}
+.header .header-container .logo {
+  float: left;
+  text-align: center;
+  width: 104px;
+  padding: 0 10px;
+  border-left: 1px solid #969695;
+}
+.header .header-container ul {
+  float: left;
+  width: 630px;
+  padding-left: 20px;
+}
+.header .header-container ul li {
+  float: left;
+  text-align: center;
+  width: 90px;
+  font-size: 18px;
+  color: #000;
+  line-height: 36px;
+  font-family: "simhei";
+}
+.header .header-container ul li.active {
+  color: #e60012;
+}
+.header .header-container ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.header .header-container ul li a:hover {
+  color: #e60012;
+}
+.header .header-container .head-right {
+  float: right;
+  line-height: 36px;
+  width: 80px;
+  font-size: 20px;
+  background: url(../images/travker/head_img.png) no-repeat left center;
+  padding-left: 30px;
+}
+.header .header-container .head-right a {
+  color: #e60012;
+  text-decoration: none;
+}
+.footer {
+  width: 100%;
+  background: #5a5a5a;
+  padding: 30px 0;
+  font-family: "simhei";
+}
+.footer .foot-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .foot-box:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.footer .foot-box .left-box {
+  float: left;
+  width: 540px;
+}
+.footer .foot-box .left-box h3 {
+  width: 100%;
+  font-weight: 100;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 40px;
+}
+.footer .foot-box .left-box ul {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #696969;
+  border-top: 1px solid #696969;
+}
+.footer .foot-box .left-box ul:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.footer .foot-box .left-box ul li {
+  float: left;
+  width: 108px;
+  line-height: 30px;
+  color: #c7c7c7;
+  font-size: 14px;
+}
+.footer .foot-box .left-box ul li a {
+  float: left;
+  color: #c7c7c7;
+  width: 100px;
+  text-decoration: none;
+}
+.footer .foot-box .left-box ul li a:hover {
+  color: #fff600;
+}
+.footer .foot-box .center-box {
+  float: left;
+  width: 166px;
+  padding: 0 35px;
+  height: 195px;
+  overflow: hidden;
+}
+.footer .foot-box .center-box dt {
+  float: left;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  padding-bottom: 5px;
+}
+.footer .foot-box .center-box dd {
+  float: left;
+  overflow: hidden;
+  width: 145px;
+  padding-left: 21px;
+  background: url(../images/travker/weixin.png) no-repeat left center;
+  line-height: 30px;
+  font-size: 16px;
+  color: #FFF;
+  height: 30px;
+}
+.footer .foot-box .right-box {
+  float: left;
+  width: 400px;
+}
+.footer .foot-box .right-box .public {
+  font-size: 16px;
+  width: 380px;
+  font-weight: 100;
+  line-height: 36px;
+  color: #FFF;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+}
+.footer .foot-box .right-box span {
+  float: left;
+  text-align: center;
+  width: 190px;
+  height: 40px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 30px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #e40101;
+  margin: 15px 0 25px 20px;
+}
+.footer .foot-box .right-box span a {
+  float: left;
+  width: 100%;
+  color: #e40101;
+  height: 40px;
+  text-decoration: none;
+}
+.footer .foot-box .right-box h4 {
+  font-size: 16px;
+  width: 380px;
+  font-weight: 100;
+  line-height: 36px;
+  color: #FFF;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+  background: url(../images/travker/tle.png) no-repeat left center;
+}
+.footer .foot-box .right-box em {
+  font-size: 16px;
+  width: 380px;
+  font-weight: 100;
+  line-height: 36px;
+  color: #FFF;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+  background: url(../images/travker/add.png) no-repeat left center;
+}
+.footer .foot-box .right-box i {
+  font-size: 16px;
+  width: 380px;
+  font-weight: 100;
+  line-height: 36px;
+  color: #FFF;
+  float: left;
+  padding-left: 20px;
+  font-style: normal;
+  font-size: 14px;
+}
+.top-menu {
+  position: fixed;
+  right: 0%;
+  bottom: 10px;
+  padding-bottom: 73px;
+  z-index: 999;
+}
+.top-menu .public {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  width: 62px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+}
+.top-menu .public:hover {
+  background-color: #f37a09;
+}
+.top-menu a {
+  text-decoration: none;
+}
+.top-menu a div {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  width: 62px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  background: #b1b1b1 url(../images/travker/369logo2.png) no-repeat center 22px;
+  line-height: 20px;
+  padding: 40px 0 0 0;
+  margin-bottom: 5px;
+}
+.top-menu a div:hover {
+  background-color: #f37a09;
+}
+.top-menu .btn-top {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  width: 62px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  background: #b1b1b1 url(../images/travker/top.png) center 10px no-repeat;
+  background-size: 35px;
+  height: 62px;
+  display: none;
+}
+.top-menu .btn-top:hover {
+  background-color: #f37a09;
+}
+.top-menu .btn-top p {
+  padding-top: 45px;
+}

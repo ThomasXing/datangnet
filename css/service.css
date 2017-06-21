@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.service-banner {
+  width: 100%;
+  padding: 20px 0;
+}
+.service-banner img {
+  width: 100%;
+}
+.section {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+.section ul {
+  width: 100%;
+}
+.section ul:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.section ul li {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+  display: inline;
+  width: 380px;
+  height: 345px;
+  margin: 0 10px;
+}
+.section ul li .photo {
+  overflow: hidden;
+  width: 380px;
+  height: 345px;
+}
+.section ul li .photo dt {
+  width: 380px;
+  height: 285px;
+  overflow: hidden;
+}
+.section ul li .photo dt img {
+  width: 380px;
+}
+.section ul li .photo dd {
+  font-family: "simhei";
+  text-align: center;
+  text-decoration: none;
+  width: 380px;
+  background: #eeeeee;
+  font-size: 18px;
+  line-height: 60px;
+  color: #333;
+}
+.section ul li .rsp {
+  overflow: hidden;
+  position: absolute;
+  width: 380px;
+  height: 345px;
+  background: #000;
+  top: 10px;
+  left: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.section ul li .text {
+  overflow: hidden;
+  position: absolute;
+  padding: 10px 10px;
+  width: 360px;
+  height: 305px;
+  left: -380px;
+  top: 10px;
+}
+.section ul li .text .public {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: 100;
+  line-height: 28px;
+  font-size: 14px;
+}
+.section ul li .text h3 {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: 100;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: "simhei";
+  position: relative;
+  line-height: 40px;
+  padding-top: 15px;
+  font-size: 22px;
+}
+.section ul li .text h4 {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: 100;
+  line-height: 28px;
+  font-size: 14px;
+  padding: 40px 0;
+  height: 180px;
+}
+.section ul li .text p {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: 100;
+  line-height: 28px;
+  font-size: 14px;
+}
+.section ul li .text .button {
+  font-family: "simhei";
+  overflow: hidden;
+  width: 160px;
+  line-height: 40px;
+  background: #fff;
+  margin: 15px auto;
+  height: 40px;
+  border-radius: 25px;
+}
+.section ul li .text .button a {
+  width: 100%;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  color: #ff0000;
+  text-decoration: none;
+  text-align: center;
+}

@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: " ";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.o-h {
+  overflow: hidden;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  color: #666666;
+  background: #fff;
+  font-family: "simsun";
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.b-b {
+  box-sizing: border-box;
+}
+.t-c {
+  text-align: center;
+}
+.t-n {
+  text-decoration: none;
+}
+.f-h {
+  font-family: "simhei";
+}
+.o-f {
+  overflow: hidden;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.banner {
+  width: 100%;
+  height: 508px;
+  position: relative;
+  overflow: hidden;
+}
+.banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 35px;
+  width: 100%;
+  text-align: center;
+}
+.banner .swiper-pagination-switch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  margin: 0 5px;
+  opacity: 0.8;
+  border: 1px solid #f37a09;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  opacity: 1;
+  zoom: 1;
+}
+.banner .swiper-pagination-switch .fenye {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #555;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  border-radius: 12px;
+}
+.banner .swiper-active-switch {
+  background: #f37a09;
+}
+.banner .swiper-wrapper img {
+  width: 100%;
+  height: 508px;
+}
+.object {
+  height: 400px;
+  position: relative;
+}
+.object .swiper-wrapper {
+  height: 400px;
+}
+.object .swiper-container {
+  height: 400px;
+}
+.object .swiper-container img {
+  width: 280px;
+}
+.object .arrow-left {
+  width: 39px;
+  height: 100%;
+  position: absolute;
+  background: url(../images/travker/next_left01.png) no-repeat center center;
+  cursor: pointer;
+  color: #FFF;
+  left: -56px;
+  top: 20px;
+}
+.object .arrow-left:hover {
+  background: url(../images/travker/next_left02.png) no-repeat center center;
+}
+.object .arrow-right {
+  width: 39px;
+  height: 100%;
+  position: absolute;
+  background: url(../images/travker/next_right01.png) no-repeat center center;
+  cursor: pointer;
+  color: #FFF;
+  right: -56px;
+  top: 20px;
+}
+.object .arrow-right:hover {
+  background: url(../images/travker/next_right02.png) no-repeat center center;
+}
+.index-title {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "simhei";
+  padding: 30px 0 20px 0;
+  height: 60px;
+  background: url(../images/travker/title.jpg) repeat-x 0 86px;
+}
+.index-title dt {
+  float: left;
+  width: 176px;
+  border-bottom: 4px solid #e60012;
+  color: #e60012;
+  height: 56px;
+}
+.index-title dt span {
+  float: left;
+  font-size: 24px;
+  line-height: 56px;
+}
+.index-title dt b {
+  float: left;
+  font-size: 10px;
+  line-height: 56px;
+  font-weight: 100;
+  margin: 0 8px;
+}
+.index-title dd {
+  float: left;
+  width: 1024px;
+  line-height: 56px;
+  font-size: 16px;
+  color: #e60012;
+  text-align: right;
+}
+.index-title dd a {
+  text-decoration: none;
+  color: #e60012;
+}
+.index-title dd a:hover {
+  text-decoration: underline;
+}
+.index-wire2 {
+  width: 1230px;
+  margin: 0 auto;
+  overflow: auto;
+  zoom: 1;
+  padding-top: 20px;
+}
+.index-wire2 .wire-left {
+  float: left;
+  width: 390px;
+  padding: 0 10px;
+}
+.index-wire2 .wire-left .xian {
+  width: 390px;
+  height: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.index-wire2 .wire-left .wire_line_0 {
+  width: 390px;
+  height: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #05559a;
+}
+.index-wire2 .wire-left .wire_line_2 {
+  width: 390px;
+  height: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #e99d45;
+}
+.index-wire2 .wire-left .wire_line_1 {
+  width: 390px;
+  height: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #08babe;
+}
+.index-wire2 .wire-left dl {
+  width: 390px;
+  overflow: auto;
+  zoom: 1;
+}
+.index-wire2 .wire-left dl dt {
+  width: 390px;
+  float: left;
+  height: 290px;
+  overflow: hidden;
+}
+.index-wire2 .wire-left dl dt img {
+  width: 390px;
+  height: 290px;
+}
+.index-wire2 .wire-left dl dd {
+  width: 370px;
+  float: left;
+  padding: 5px 10px;
+  height: 50px;
+  margin-top: -60px;
+  line-height: 25px;
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none;
+  background: #000;
+  filter: alpha(opacity=60);
+  background: rgba(0, 0, 0, 0.6);
+}
+.index-wire2 .wire-left dl dd p {
+  position: relative;
+}
+.index-wire2 .wire-left .lefttext {
+  width: 370px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  height: 125px;
+  overflow: hidden;
+}
+.index-wire2 .wire-left .lefttext a {
+  text-decoration: none;
+  color: #333;
+}
+.index-wire2 .wire-left .lefttext a:hover {
+  text-decoration: underline;
+  color: #F00;
+}
+.index-bannber {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.index-bannber img {
+  width: 100%;
+}
+.activity {
+  background: #eeeeee;
+  width: 100%;
+  padding: 20px 0;
+}
+.activity .index-activity {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  zoom: 1;
+  padding: 10px 0;
+}
+.activity .index-activity .vider {
+  width: 370px;
+  float: left;
+  height: 260px;
+  overflow: hidden;
+  background: #999;
+  font-size: 0;
+  position: relative;
+}
+.activity .index-activity .actright {
+  width: 830px;
+  float: left;
+}
+.activity .index-activity .actright dl {
+  width: 400px;
+  float: left;
+  padding-left: 15px;
+  height: 125px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.activity .index-activity .actright dl dt {
+  width: 160px;
+  float: left;
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+}
+.activity .index-activity .actright dl dt img {
+  width: 160px;
+  height: 120px;
+}
+.activity .index-activity .actright dl dt span {
+  width: 80px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  color: #f70404;
+  background: #fff;
+  filter: alpha(opacity=60);
+  background: rgba(255, 255, 255, 0.8);
+}
+.activity .index-activity .actright dl dd {
+  width: 220px;
+  float: left;
+  padding-left: 20px;
+}
+.activity .index-activity .actright dl dd h3 {
+  width: 100%;
+  line-height: 20px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 100;
+  height: 58px;
+  overflow: hidden;
+}
+.activity .index-activity .actright dl dd h4 {
+  width: 100%;
+  line-height: 20px;
+  font-size: 13px;
+  color: #666;
+  font-weight: 100;
+}
+.activity .index-activity .actright dl dd h4 b {
+  font-weight: 100;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 100%;
+  border: 1px solid #f37a09;
+  background: rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #f37a09;
+}
+.object {
+  width: 1208px;
+  margin: 0 auto;
+  position: relative;
+}
+.object .lunbo-box {
+  width: 1208px;
+  height: 400px;
+}
+.object img {
+  width: 280px;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: -44px;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: -32px;
+}
+.base {
+  width: 1280px;
+  margin: 0 auto;
+  height: 628px;
+  overflow: hidden;
+}
+.base .img {
+  width: 39px;
+  float: left;
+  cursor: pointer;
+  height: 600px;
+}
+.base .a {
+  width: 39px;
+  height: 600px;
+  float: left;
+  cursor: pointer;
+  color: #FFF;
+}
+.base .img-l {
+  width: 39px;
+  float: left;
+  cursor: pointer;
+  height: 600px;
+}
+.base .img-l a {
+  width: 39px;
+  height: 600px;
+  float: left;
+  cursor: pointer;
+  color: #FFF;
+  background: url(../images/travker/next_left01.png) no-repeat center center;
+}
+.base .img-l a:hover {
+  background: url(../images/travker/next_left02.png) no-repeat center center;
+}
+.base .img-r {
+  width: 39px;
+  float: left;
+  cursor: pointer;
+  height: 600px;
+}
+.base .img-r a {
+  width: 39px;
+  height: 600px;
+  float: left;
+  cursor: pointer;
+  color: #FFF;
+  background: url(../images/travker/next_right01.png) no-repeat center center;
+}
+.base .img-r a:hover {
+  background: url(../images/travker/next_right02.png) no-repeat center center;
+}
+.base .base-nav {
+  position: relative;
+  width: 1200px;
+  float: left;
+  height: 608px;
+  overflow: hidden;
+}
+.base .base-nav .city-img2 {
+  overflow: hidden;
+  float: left;
+  margin: 15px 10px 0;
+  width: 280px;
+  height: 280px;
+  z-index: 555;
+}
+.base .base-nav .city-img2 a {
+  width: 280px;
+  height: 280px;
+  display: block;
+  position: relative;
+}
+.base .base-nav .city-img2 a .mengban {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background: #000 ;
+  z-index: 0;
+  filter: alpha(opacity=50);
+  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
+}
+.base .base-nav .city-img2 a img {
+  width: 280px;
+  height: 280px;
+}
+.base .base-nav .city-img2 a .sexangle {
+  position: absolute;
+  width: 120px;
+  height: 136px;
+  right: 0;
+  bottom: -20px;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transform: scale(1);
+  background: url(../images/travker/liubianxing.png) no-repeat;
+  background-size: 100%;
+  z-index: 5;
+}
+.base .base-nav .city-img2 a .sexangle h2 {
+  text-align: center;
+  font-family: "simhei";
+  width: 100%;
+  font-weight: 100;
+  font-size: 24px;
+  color: #FFF;
+  padding: 40px 0 0 0;
+  line-height: 30px;
+}
+.base .base-nav .city-img2 a .sexangle h3 {
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.base .base-nav .city-img2 a:hover .sexangle {
+  right: 50%;
+  bottom: 50%;
+  margin-right: -60px;
+  margin-bottom: -78px;
+}
+.base .base-nav .city-img2 a:hover .mengban {
+  background: none;
+}
